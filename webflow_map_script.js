@@ -1,9 +1,13 @@
 
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBrpgNQ-IKOlwKUBmG5074KVirDD8QMOH4&callback=initializemap"></script>
-
 
 function createmap(initobj)
 {
+var script = document.createElement('script');
+    script.type = 'text/javascript';
+
+    script.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyBrpgNQ-IKOlwKUBmG5074KVirDD8QMOH4&callback=initializemap';
+    document.body.appendChild(script);	
+	
 let listclass = $('.w-dyn-item');
 let projname = document.getElementsByClassName(initobj.title);
 let projlat = document.getElementsByClassName(initobj.latitude);
