@@ -1,3 +1,7 @@
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBrpgNQ-IKOlwKUBmG5074KVirDD8QMOH4&callback=initializemap"></script>
+
+
 function createmap(initobj)
 {
 let listclass = $('.w-dyn-item');
